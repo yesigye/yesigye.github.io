@@ -1,22 +1,352 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Feather Icons -->
+        <script src="https://unpkg.com/feather-icons"></script>
+        <title>Yesigye Ignatius</title>
+        <style>
+            .card-top-icon {
+                width:100%;
+                height:2.5rem;
+            }
+        </style>
 
-    <title>Yesigye Ignatius</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white border-bottom mb-3" id="navbar-example">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" width="30" height="30" alt="logo" class="rounded-circle">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nash-projects">Projects</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nash-contact">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <body data-spy="scroll" data-target="#navbar-example">
+        <main id="main" class="">
+            <section class="container" id="nash-intro">
+                <div class="row align-items-center">
+                    <div class="col-6 mx-auto col-md-5 order-md-2 text-md-right">
+                        <img src="assets/images/profile.png" width="230" height="230" class="img-fluid rounded-circle mb-3 mb-md-0">
+                    </div>
+                    <div class="col-md-7 order-md-1 text-center text-md-left pr-md-2">
+                        <h1 class="mb-4 mt-md-3 font-weight-light text-warning">Yesigye</h1>
+                        <p class="lead">
+                            Builds mobile web applications.
+                        </p>
+                        <p class="lead mb-4">
+                            Hi there, my name is ignatius yesigye. I am a full-stack developer proficient in JavaScript and PHP.
+                            Although I can work with most frameworks, I enjoy working with React, Angular, Laravel and CodeIgniter.
+                        </p>
+                        <div class="row mx-n2">
+                            <div class="col-md px-2">
+                                <a href="#nash-projects" class="btn btn-lg rounded-0 btn-outline-success w-100 mb-3" onclick="">
+                                    <small>Projects</small>
+                                </a>
+                            </div>
+                            <div class="col-md px-2">
+                                <a href="#nash-contact" class="btn btn-lg rounded-0 btn-outline-secondary w-100 mb-3" onclick="">
+                                    <small>Contact me</small>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Not necessary yet -->
+                        <!-- <p class="text-muted mb-0">
+                            Google Certified
+                        </p> -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-light" id="nash-projects">
+                <div class="container">
+                    <h1 class="pt-3 md-pt-5 mb-2">Projects</h1>
+                    <p class="lead">These are some of my best projects.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="https://codecanyon.img.customer.envatousercontent.com/files/255512874/preview.png?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=eb7955624cbbb5a6c4018418d5ab334c" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">Medixa - Doctor/ Hospital Listing with Booking</div>
+                                    <div class="text-muted">Telehealth System</div>
+                                    <p class="text-muted small">
+                                        Software Version: PHP 5.4 - 7.x, MySQL 4.x - 5.x
+                                    </p>
+                                </div>
+                                <div class="card-footer btn-group p-0">
+                                    <a href="#modal-medixa" data-toggle="modal" class="btn rounded-0 btn-outline-secondary">See Details</a>
+                                    <a href="https://codecanyon.net/item/medixa-doctor-hospital-listing-with-booking/22746123" class="btn rounded-0 btn-outline-dark">Buy - $25</a>
+                                </div>
+                            </div>
+
+                            <div class="modal" tabindex="-1" role="dialog" id="modal-medixa">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <img src="https://s3.envato.com/files/255512873/mini-logo.png.png" height="25" width="25" alt="medixa" class="mr-2">
+                                            medixa - doctor & hospital listing with booking
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            This script is a hospital and doctor listing management tool. It is great if you are looking for an easy-to-use
+                                            script
+                                            to register an updated listing of doctors and hospital from which users can search and book appointments. In
+                                            addition;
+                                            the script allows users to book and track appointments with physicians, who will be duly notified by email and in
+                                            app
+                                            notifications. Dashboards are created for hospitals accounts where they can manage their physicians, define
+                                            facilities
+                                            they offer, upload photos and more.
+                                        </p>
+                                        <h4>Features</h4>
+                                        <ul>
+                                            <li>Full Admin Dashboard</li>
+                                            <li>Dashboard for hospitals</li>
+                                            <li>Notify doctors of new appointments</li>
+                                            <li>Filter by type, facilities or specialities</li>
+                                            <li>Robust search with ranking algorithm</li>
+                                            <li>User Management and Authentication</li>
+                                        </ul>
+                                        
+                                        <p class="text-center">
+                                            <img src="https://image.ibb.co/hLg8ZK/description.png" alt="description" class="img-fluid" />
+                                            <a class="btn btn-primary" href="https://medixa.000webhostapp.com/" rel="nofollow" target="_blank">
+                                                DEMO
+                                            </a>
+                                        </p>
+                                        
+                                        <h4>DEMO Authentication</h4>
+                                        <ol>
+                                            <li>
+                                                Admin Dashboard <br />
+                                                <ul>
+                                                    <li>email: <b><a href="mailto:admin@admin.com">admin@admin.com</a></b></li>
+                                                    <li>passsword: <b>password</b></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Hospital Dashboard <br />
+                                                <ul>
+                                                    <li>email: <b><a href="mailto:usernash@email.com">usernash@email.com</a></b></li>
+                                                    <li>passsword: <b>password</b></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Doctor Account <br />
+                                                <ul>
+                                                    <li>email: <b><a href="mailto:Anne23@Weber.com">Anne23@Weber.com</a></b></li>
+                                                    <li>passsword: <b>password</b></li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div class="modal-footer d-md-none">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close widow</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <img src="https://codecanyon.img.customer.envatousercontent.com/files/265537989/preview.jpeg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=164955f8f683c32d65505e8221504184" alt="dashman" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title">Dashman - Functional Dashboard Generator</div>
+                                    <div class="text-muted">Database Management</div>
+                                    <p class="text-muted small">
+                                        Software Version: PHP 5.4 - 7.x, MySQL 4.x - 5.x
+                                    </p>
+                                </div>
+                                <div class="card-footer btn-group p-0">
+                                    <a href="#modal-dashman" data-toggle="modal" class="btn rounded-0 btn-outline-secondary">See Details</a>
+                                    <a href="https://codecanyon.net/item/dashman-functional-dashboard-generator/23898060" class="btn rounded-0 btn-outline-dark">Buy - $25</a>
+                                </div>
+                            </div>
+
+                            <div class="modal" tabindex="-1" role="dialog" id="modal-dashman">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <img src="https://s3.envato.com/files/265537988/logo.PNG" height="25" width="25" alt="medixa" class="mr-2">
+                                            Dashman - Functional Dashboard Generator
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            Dashman is a php script that automatically generates a working admin dashboard from your database. Dashman will take care of backend stuff, so that you focus on building amazing apps.
+                                        </p>
+                                        <ul>
+                                            <li>Login Authentication</li>
+                                            <li>Quick Statistics on data</li>
+                                            <li>Data Graphs for relevant tables</li>
+                                            <li>Data tables with search &#38; filters</li>
+                                            <li>Data CRUD functions with Batch editing</li>
+                                            <li>Image uploader with cropping feature</li>
+                                            <li>Foreign keys are respected</li>
+                                            <li>Form Validation</li>
+                                            <li>Customizable Settings</li>
+                                            <li>Easy Setup</li>
+                                        </ul>
+                                    
+                                        <h4>Server Requirements</h4>
+                                        <ul>
+                                            <li>PHP 5+</li>
+                                            <li>MySQL</li>
+                                        </ul>
+                                    
+                                        <p>
+                                            <a href="http://dashmanapp.000webhostapp.com/" rel="nofollow" target="_blank">
+                                                <img src="https://i.ibb.co/s6HyV5x/description.png" alt="description" class="img-fluid">
+                                            </a>
+                                        </p>
+                                    
+                                        <h4>Features</h4>
+                                        <ul>
+                                            <li>
+                                                <strong>Secure authentication.</strong>
+                                                Dashman has an inbuilt user authentication to connect to your database safely.
+                                                No need to setup an account, just enter your database credentials to begin using Dashman.
+                                            </li>
+                                            <li>
+                                                <strong>Intiutive Dashboard.</strong>
+                                                A dashboard is automatically generated depending on the database structure and the type of 
+                                                data in your database. Generating different card to show graphs, statistics, quick facts and info cards.
+                                            </li>
+                                            <li>
+                                                <strong>Data Mapping.</strong>
+                                                Dashman analyzes and maintains the foreign key relationships between data objects and treats them as a single entity.
+                                                for example a user management database will have a User entity that relates to Groups and Roles.
+                                            </li>
+                                            <li>
+                                                <strong>Smart Widgets.</strong>
+                                                Dashman presents data in a beautiful and familiar way. Using images card or upload widgets 
+                                                for images, check boxes for option fields or formatting tables to display data correctly.
+                                            </li>
+                                            <li>
+                                                <strong>Form Validation.</strong>
+                                                While adding or updating new data, Dashman ensures the data you enter is true and
+                                                consistent by setting up validation rules based on your database constrains.
+                                            </li>
+                                            <li>
+                                                <strong>No generated code or tables.</strong>
+                                                Dashman relies solely on your database and unlike most generator scripts,
+                                                It does not add code files or change your database schema. This makes it perfect if you have limited privileges
+                                                on a web server or you are concerned about security.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer d-md-none">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close widow</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="border-top py-5 mt-5 text-center" id="nash-contact">
+                <h2 class="my-2">Contact me</h2>
+                <p class="text-muted">Lets connect and build amazing mobile web applications</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 mt-3 mx-auto">
+                            <a class="card-link text-success" href="mailto:ignatiusyesigye@gmail.com">
+                                <div class="card card-body border-success">
+                                    <h1><i class="card-top-icon" data-feather="mail"></i></h1>
+                                    <div class="card-title text-muted">
+                                        ignatiusyesigye@gmail.com
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 mt-3 mx-auto">
+                            <a class="card-link text-danger d-md-none" href="tel:+256758442440">
+                                <div class="card card-body border-danger">
+                                    <h1><i class="card-top-icon" data-feather="phone"></i></h1>
+                                    <div class="card-title text-muted">
+                                        Tel: +256 758 442 440
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card card-body d-none d-md-block border-danger text-danger">
+                                <h1><i class="card-top-icon" data-feather="phone"></i></h1>
+                                <div class="card-title text-muted">
+                                    Tel: +256 758 442 440
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-3 mx-auto">
+                            <a class="card-link text-primary" href="skype:yesigye">
+                                <div class="card card-body border-primary">
+                                    <h1><i class="card-top-icon" data-feather="video"></i></h1>
+                                    <div class="card-title text-muted">
+                                        <b>Skype</b>: yesigye
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-dark text-white pt-3 pb-5 mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 pt-3">
+                        <h4>About</h4>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium quaerat eos, molestias beatae atque ad aperiam mollitia molestiae. Ipsa dignissimos fugiat odio cumque nisi ad repellendus ullam minima et soluta?
+                    </div>
+                    <div class="col-md-4 pt-3">
+                        <p>Phone</p>
+                        <p>Phone</p>
+                        <p>Phone</p>
+                    </div>
+                </div>
+                <hr class="border-secondary">
+                <aside class="text-center">&copy Copyright 2019 Yesigye Ignatius.<wbr> All rights reserved.</aside>
+            </div>
+        </footer>
+
+        <!-- Activate Feather Icons -->
+        <script>
+            feather.replace()
+        </script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
