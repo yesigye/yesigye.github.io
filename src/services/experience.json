@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Senior Software Engineer",
+        "company": "Mansa",
+        "location": "Los Angeles, United States",
+        "startDate": "Feb 2022",
+        "endDate": "Sep 2024",
+        "description": "Led the integration of FAST channels into MansaTV's content platforms, expanding streaming coverage from web-only to FireTV, Vizio, Samsung, and Android TV. Developed features for ad-driven FAST & VOD ingestion, along with admin tools and a CMS dashboard. These efforts increased MansaTV's reach to 300,000 viewers within a year and raised $8M In Seed Funding Round",
+        "tech": ["React", "NextJs", "NodeJs", "TypeScript", "Jest", "Redux", "AWS", "Notion", "Selenium"]
+    },
+    {
+        "title": "Senior software Engineer",
+        "company": "MentorMate",
+        "location": "Sofia, Bulgaria",
+        "startDate": "April 2022",
+        "endDate": "Aug 2022",
+        "description": "Developed the CLINPORTAL platform, a CMS for managing patient data and practices as part of the Inspire project, which aimed to innovate sleep apnea treatment. Collaborated with the team to design user-friendly interfaces, enhancing patient and practice interaction. The platform contributed to the success of the Inspire project by improving patient data management.",
+        "tech": ["React", "Redux", "TypeScript", "Jest", "Jira", "Confluence"]
+    },
+    {
+        "title": "Software Engineer",
+        "company": "Andela",
+        "location": "New York, United States",
+        "startDate": "Oct 2021",
+        "endDate": "",
+        "description": "I am a partner engineer at Andela, a global talent network for software developers. I mentored 139 learners in Angular, JavaScript, and HTML/CSS through the Google Africa Developer Scholarship. Provided technical expertise and facilitated workshops, helping learners build strong web development skills. Several mentees secured employment in the tech industry as a result.",
+        "tech": ["React", "Angular", "NodeJs", "TypeScript", "Slack"]
+    },
+    {
+        "title": "Senior Software Developer",
+        "company": "Project Code",
+        "location": "Kampala, Uganda",
+        "startDate": "March 2021",
+        "endDate": "March 2022",
+        "description": "Led the development of FundsTrans and Lenderly projects, focusing on money remittance and auto-ID verification solutions. Advocated for best practices, including code documentation and REST API use, while mentoring the team and conducting interviews. These efforts improved financial operations, dropped KYC approval time from 1-2 weeks to seconds, and built a more skilled development team.",
+        "tech": ["Laravel", "React", "VueJs", "NodeJs", "Jest", "TypeScript", "Azure DevOps", "Microsoft Teams"]
+    },
+    {
+        "title": "Solutions Developer",
+        "company": "Opportunity Bank",
+        "location": "Kampala, Uganda",
+        "startDate": "Dec 2019",
+        "endDate": "Feb 2020",
+        "description": "Led the integration of the bank’s APIs with third-party services to enhance mobile and agent banking, supporting 22 ATMs, 23 branches, and 23 agents. Worked with a distributed IT team to ensure seamless service integration and accessibility. The integration expanded the bank's reach and improved service accessibility across Uganda.",
+        "tech": ["PHP", "JSON", "Oracle", "Temenos T24", "Java", "Skype"]
+    },
+    {
+        "title": "Frontend Developer",
+        "company": "Dotsaidia Systems",
+        "location": "Kampala, Uganda",
+        "startDate": "Nov 2016",
+        "endDate": "Dec 2018",
+        "description": "Led the frontend development of DotShule, an e-Administration system for schools, focusing on a user-friendly interface that enhanced usability. The improved system led to the onboarding of 50 additional schools, achieving a 66% growth rate. DotShule is now used in over 80 schools across 7 districts in Uganda.",
+        "tech": ["JavaScript", "React", "PHP", "Erlang", "HTM/CSS", "Trello", "Skype"]
+    },
+    {
+        "title": "Application Developer",
+        "company": "Envato",
+        "location": "Melbourne, Australia",
+        "startDate": "Dec 2014",
+        "endDate": "Jan 2018",
+        "description": "As an Evanto author, I built consumer scripts and plugins for the digital marketplace, CodeCanyon. During this time, I worked as a sole proprietor freelancer serving SaaP applications to clients and offering support services. I achieved a 5-star rating with over 144 sales.",
+        "tech": ["PHP", "Laravel", "MySQL", "Postgres", "JavaScript"]
+    }
+]
