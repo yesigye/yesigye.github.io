@@ -1,27 +1,1031 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project-showcase-engineer-hub</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Ignatius Yesigye // Senior Software Engineer &amp; Frontend Architect</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS with CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary": "#00363a",
+            "inverse-on-surface": "#2c303a",
+            "surface-container-highest": "#31353f",
+            "secondary-container": "#00a572",
+            "on-background": "#dfe2ef",
+            "on-tertiary": "#1000a9",
+            "on-primary-container": "#006970",
+            "surface-container-high": "#262a34",
+            "secondary": "#4edea3",
+            "slate-border": "#1E2B48",
+            "tertiary": "#f8f4ff",
+            "on-tertiary-fixed": "#07006c",
+            "slate-elevated": "#141E34",
+            "error-container": "#93000a",
+            "tertiary-container": "#d7d6ff",
+            "on-tertiary-container": "#494bd7",
+            "on-secondary-container": "#00311f",
+            "accent-emerald-glow": "#10B98126",
+            "on-secondary-fixed": "#002113",
+            "inverse-surface": "#dfe2ef",
+            "surface-variant": "#31353f",
+            "primary-container": "#00f0ff",
+            "secondary-fixed-dim": "#4edea3",
+            "surface-bright": "#353943",
+            "error": "#ffb4ab",
+            "terminal-amber": "#F59E0B",
+            "inverse-primary": "#006970",
+            "on-primary-fixed": "#002022",
+            "text-dim": "#64748B",
+            "primary": "#dbfcff",
+            "on-surface-variant": "#b9cacb",
+            "outline-variant": "#3b494b",
+            "on-primary-fixed-variant": "#004f54",
+            "on-secondary-fixed-variant": "#005236",
+            "accent-cyan-glow": "#00F0FF1F",
+            "primary-fixed": "#7df4ff",
+            "background": "#0f131c",
+            "surface-container": "#1c1f29",
+            "slate-border-glow": "#00F0FF33",
+            "on-error": "#690005",
+            "primary-fixed-dim": "#00dbe9",
+            "on-error-container": "#ffdad6",
+            "surface-container-low": "#181b25",
+            "surface-tint": "#00dbe9",
+            "outline": "#849495",
+            "on-secondary": "#003824",
+            "tertiary-fixed": "#e1e0ff",
+            "text-bright": "#F8FAFC",
+            "secondary-fixed": "#6ffbbe",
+            "surface-dim": "#0f131c",
+            "surface": "#0f131c",
+            "on-surface": "#dfe2ef",
+            "surface-container-lowest": "#0a0e17",
+            "on-tertiary-fixed-variant": "#2f2ebe",
+            "tertiary-fixed-dim": "#c0c1ff",
+            "text-muted": "#94A3B8",
+            "slate-surface": "#0E1524"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-mobile": "1.25rem",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "space-3xl": "6rem",
+            "margin": "3rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem",
+            "gutter-mobile": "1rem",
+            "gutter": "1.5rem",
+            "space-2xl": "4rem"
+          },
+          "fontFamily": {
+            "label-caps": ["JetBrains Mono"],
+            "headline-xl": ["Space Grotesk"],
+            "headline-sm": ["Space Grotesk"],
+            "body-sm": ["Inter"],
+            "body-md": ["Inter"],
+            "headline-hero-mobile": ["Space Grotesk"],
+            "headline-hero": ["Space Grotesk"],
+            "code-sm": ["JetBrains Mono"],
+            "code-md": ["JetBrains Mono"],
+            "headline-lg": ["Space Grotesk"],
+            "headline-xl-mobile": ["Space Grotesk"],
+            "headline-md": ["Space Grotesk"],
+            "body-lg": ["Inter"]
+          },
+          "fontSize": {
+            "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "600" }],
+            "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "700" }],
+            "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "headline-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" }],
+            "code-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "code-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "500" }],
+            "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "body-lg": ["18px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .grid-matrix {
+      background-size: 32px 32px;
+      background-image: 
+        radial-gradient(circle, rgba(0, 240, 255, 0.08) 1px, transparent 1px);
+    }
+    .cyber-glow-cyan {
+      box-shadow: 0 0 24px -4px rgba(0, 240, 255, 0.18);
+    }
+    .cyber-glow-emerald {
+      box-shadow: 0 0 24px -4px rgba(16, 185, 129, 0.2);
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary font-body-md text-body-md antialiased relative">
+<!-- Subtle Spatial Matrix Background Overlay -->
+<div class="fixed inset-0 pointer-events-none grid-matrix z-0 opacity-40"></div>
+<div class="fixed top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[360px] bg-primary-container opacity-[0.03] blur-[140px] pointer-events-none z-0"></div>
+<!-- Shared Component: TopNavBar (Web Header) -->
+<header class="bg-slate-surface/85 backdrop-blur-md text-primary-container docked full-width top-0 sticky z-50 shadow-[0_4px_24px_-4px_rgba(0,240,255,0.08)]">
+<div class="flex justify-between items-center w-full px-6 lg:px-12 max-w-7xl mx-auto h-16">
+<!-- Logo / Brand Identity -->
+<a class="flex items-center gap-2 group" href="#overview">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
+<span class="text-headline-sm font-headline-sm tracking-wider font-bold text-text-bright group-hover:text-primary-container transition-colors duration-150">
+          IGNATIUS SR. ENG
+        </span>
+</a>
+<!-- Desktop Nav Anchors -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-primary-container border-b-2 border-primary-container pb-1 font-label-caps text-label-caps tracking-widest" href="#overview">
+          Overview
+        </a>
+<a class="text-text-muted hover:text-text-bright font-label-caps text-label-caps tracking-widest hover:text-primary-container transition-colors duration-150" href="#impact">
+          Impact
+        </a>
+<a class="text-text-muted hover:text-text-bright font-label-caps text-label-caps tracking-widest hover:text-primary-container transition-colors duration-150" href="#skills">
+          Skills
+        </a>
+<a class="text-text-muted hover:text-text-bright font-label-caps text-label-caps tracking-widest hover:text-primary-container transition-colors duration-150" href="#timeline">
+          Timeline
+        </a>
+<a class="text-text-muted hover:text-text-bright font-label-caps text-label-caps tracking-widest hover:text-primary-container transition-colors duration-150" href="#case-studies">
+          Case Studies
+        </a>
+<a class="text-text-muted hover:text-text-bright font-label-caps text-label-caps tracking-widest hover:text-primary-container transition-colors duration-150" href="#contact">
+          Contact
+        </a>
+</nav>
+<!-- Trailing CTAs & Availability Capsule -->
+<div class="flex items-center gap-4">
+<!-- Live Status Pill -->
+<a href="https://ignatiusyesigyekm0ah0qi.contra.com/" target="_blank" rel="noopener noreferrer" class="hidden xl:flex items-center gap-2 px-3 py-1 bg-surface-container-low hover:bg-slate-elevated rounded-full border border-slate-border hover:border-secondary/40 transition-all group" title="Hire on Contra">
+  <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+  <span class="font-label-caps text-label-caps text-secondary tracking-wider group-hover:underline">
+    Available for Contract
+  </span>
+  <span class="material-symbols-outlined text-xs text-text-dim group-hover:text-secondary" data-icon="open_in_new">open_in_new</span>
+</a>
+<!-- Download CV Action -->
+<button class="flex items-center gap-2 px-4 py-2 bg-primary-container text-surface-container-lowest font-headline-sm text-label-caps rounded font-bold hover:opacity-95 active:scale-[0.98] transition-all shadow-[0_0_16px_rgba(0,240,255,0.3)]" onclick="triggerCVDownload()">
+<span class="material-symbols-outlined text-sm" data-icon="download">download</span>
+<span class="">Download CV (PDF)</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-8 pb-24 space-y-24">
+<!-- Section 1: Hero Dossier & Verified Senior Engineer Showcase -->
+<section class="pt-6" id="overview">
+<div class="p-8 lg:p-12 rounded-xl bg-slate-surface/85 backdrop-blur-md border border-slate-border relative overflow-hidden">
+<!-- Ambient corner light accents -->
+<div class="absolute -top-24 -right-24 w-80 h-80 bg-primary-container opacity-10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-80 h-80 bg-secondary opacity-10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Profile Visual Presentation with Real Photo -->
+<div class="lg:col-span-4 flex flex-col items-center text-center">
+<div class="relative w-56 h-56 lg:w-64 lg:h-64 rounded-xl p-1 bg-gradient-to-tr from-primary-container via-slate-border to-secondary shadow-[0_0_32px_-4px_rgba(0,240,255,0.25)]">
+<div class="w-full h-full rounded-xl overflow-hidden bg-surface-container-lowest relative">
+<!-- Using real provided portrait image -->
+<img alt="Ignatius Yesigye portrait" class="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0u06-74lw1rkzjnzQMKHwQOA4uHDsUJ0SFFoCR8DRhyMeYbHEwczwor3H5bhUuJahqrzVt6vLRlrFNx7Pu2_CYo-8F-e8b5rTxme6Sheu3ecSfsLu8i6XKSNE5FeT_bD4F-cl-XmK0Iwf6iUAYNWp62VjvWeIgHt83uGGSSI70XuX3hfPrT5DA8xHvt-6xB8mdh2MwqSUWWQ8bRBBRwSOWj4hJQ2KBGgpKaOJLLIGx_AU75qCJEH2rMVZdD8gtafxQA">
+<!-- Coordinate Marker Overlay -->
+<div class="absolute top-2 left-2 bg-surface-container-lowest/80 px-2 py-0.5 rounded border border-slate-border">
+<span class="font-code-sm text-code-sm text-primary-container">SYS_ID: 10_YRS_XP</span>
+</div>
+</div>
+</div>
+<!-- Verified Status Badge -->
+<div class="mt-4 flex items-center gap-2 px-3 py-1 bg-surface-container-low border border-slate-border rounded-full">
+<span class="material-symbols-outlined text-secondary text-base" data-icon="verified" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-caps text-label-caps text-text-bright">VERIFIED SR. ARCHITECT</span>
+</div>
+<p class="font-code-sm text-code-sm text-text-dim mt-2">
+              Kampala, Uganda • Global Remote (US/EU)
+            </p>
+</div>
+<!-- Hero Dossier Bio & Core Narrative -->
+<div class="lg:col-span-8 space-y-6">
+<div class="space-y-2">
+<div class="inline-flex items-center gap-2 text-primary-container font-code-sm text-code-sm bg-primary-container/10 px-3 py-1 rounded border border-primary-container/20">
+<span class="material-symbols-outlined text-xs" data-icon="terminal">terminal</span>
+<span class="">SYSTEM_ROLE // SR. FULL-STACK &amp; FRONTEND ARCHITECT</span>
+</div>
+<h1 class="text-headline-hero lg:text-headline-hero font-headline-hero text-text-bright tracking-tight">
+                Ignatius Yesigye
+              </h1>
+<p class="text-headline-md font-headline-md text-primary-container">
+                Senior Software Engineer &amp; Frontend Architect
+              </p>
+</div>
+<p class="text-body-lg font-body-lg text-text-muted leading-relaxed">
+              A decade of production engineering mastering high-concurrency video streaming architectures, complex GIS spatial interfaces, automated fintech platforms, and scalable web infrastructures across Africa, Europe, and the United States.
+            </p>
+<!-- Quick Action Interactive Cluster -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<button class="flex items-center gap-2 px-6 py-3 bg-primary-container text-surface-container-lowest font-headline-sm text-headline-sm rounded hover:opacity-95 active:scale-[0.98] transition-all shadow-[0_0_20px_rgba(0,240,255,0.25)]" onclick="triggerCVDownload()">
+<span class="material-symbols-outlined" data-icon="download">download</span>
+<span class="">Download Full CV (PDF)</span>
+</button>
+<a class="flex items-center gap-2 px-5 py-3 border border-slate-border text-text-bright font-headline-sm text-headline-sm rounded hover:border-primary-container hover:bg-primary-container/5 transition-all" href="#timeline">
+<span class="material-symbols-outlined" data-icon="timeline">timeline</span>
+<span class="">Explore Career History</span>
+</a>
+<button class="flex items-center gap-2 px-4 py-3 bg-surface-container-low border border-slate-border hover:border-primary-container text-text-muted hover:text-text-bright rounded font-code-sm text-code-sm transition-all group" id="copy-email-btn" onclick="copyEmailToClipboard()">
+<span class="material-symbols-outlined text-sm group-hover:text-primary-container" data-icon="content_copy">content_copy</span>
+<span id="copy-email-text" class="">ignatiusyesigye@gmail.com</span>
+</button>
+<a href="https://ignatiusyesigyekm0ah0qi.contra.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-5 py-3 border border-secondary/30 bg-secondary/10 hover:bg-secondary/20 text-secondary font-headline-sm text-headline-sm rounded hover:border-secondary transition-all shadow-[0_0_16px_rgba(16,185,129,0.15)]">
+  <span class="material-symbols-outlined text-base" data-icon="work">work</span>
+  <span class="">Hire on Contra</span>
+  <span class="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span>
+</a></div>
+<div class="hidden text-secondary font-code-sm text-code-sm items-center gap-1.5 animate-fadeIn" id="copy-toast">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span class="">Copied direct contact to clipboard!</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Quantified Telemetry / Impact Metrics (Bento Style) -->
+<section class="space-y-6" id="impact">
+<div class="flex items-center justify-between border-b border-slate-border pb-4">
+<div>
+<span class="font-code-sm text-code-sm text-primary-container tracking-wider">// SYSTEM_TELEMETRY</span>
+<h2 class="text-headline-lg font-headline-lg text-text-bright">Proven High-Scale Engineering Impact</h2>
+</div>
+<div class="hidden sm:flex items-center gap-2 font-code-sm text-code-sm text-text-dim">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="">100% PRODUCTION VERIFIED</span>
+</div>
+</div>
+<!-- Impact Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+<!-- Metric 1 -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all">
+<div class="flex items-center justify-between text-text-dim mb-3">
+<span class="font-code-sm text-code-sm">TENURE</span>
+<span class="material-symbols-outlined text-primary-container" data-icon="history_toggle_off">history_toggle_off</span>
+</div>
+<div class="text-headline-xl font-headline-xl text-primary-container">10+ Yrs</div>
+<p class="font-body-sm text-body-sm text-text-muted mt-2">
+            Professional software engineering tenure spanning Africa, US, &amp; EU.
+          </p>
+</div>
+<!-- Metric 2 -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all">
+<div class="flex items-center justify-between text-text-dim mb-3">
+<span class="font-code-sm text-code-sm">STREAMING SCALE</span>
+<span class="material-symbols-outlined text-primary-container" data-icon="live_tv">live_tv</span>
+</div>
+<div class="text-headline-xl font-headline-xl text-primary-container">300K+</div>
+<p class="font-body-sm text-body-sm text-text-muted mt-2">
+            Active viewers on Mansa FAST &amp; VOD streaming architecture.
+          </p>
+</div>
+<!-- Metric 3 -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all">
+<div class="flex items-center justify-between text-text-dim mb-3">
+<span class="font-code-sm text-code-sm">CONCURRENT CMS</span>
+<span class="material-symbols-outlined text-secondary" data-icon="stream">stream</span>
+</div>
+<div class="text-headline-xl font-headline-xl text-secondary">45K+</div>
+<p class="font-body-sm text-body-sm text-text-muted mt-2">
+            Simultaneous viewers handled via custom high-speed live broadcasting CMS.
+          </p>
+</div>
+<!-- Metric 4 -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all">
+<div class="flex items-center justify-between text-text-dim mb-3">
+<span class="font-code-sm text-code-sm">ENTERPRISE SCALE</span>
+<span class="material-symbols-outlined text-text-bright" data-icon="domain">domain</span>
+</div>
+<div class="text-headline-xl font-headline-xl text-text-bright">80+ Sch.</div>
+<p class="font-body-sm text-body-sm text-text-muted mt-2">
+            Institutions scaled with +66% annual growth on DotShule e-Admin.
+          </p>
+</div>
+<!-- Metric 5 -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all">
+<div class="flex items-center justify-between text-text-dim mb-3">
+<span class="font-code-sm text-code-sm">COMMUNITY LEAD</span>
+<span class="material-symbols-outlined text-terminal-amber" data-icon="school">school</span>
+</div>
+<div class="text-headline-xl font-headline-xl text-terminal-amber">139 Devs</div>
+<p class="font-body-sm text-body-sm text-text-muted mt-2">
+            Engineers mentored via Google Africa Developer Scholarship &amp; Andela.
+          </p>
+</div>
+</div>
+</section>
+<!-- Section 3: Core Technical Arsenal & Capabilities -->
+<section class="space-y-6" id="skills">
+<div class="flex items-center justify-between border-b border-slate-border pb-4">
+<div>
+<span class="font-code-sm text-code-sm text-primary-container tracking-wider">// SYSTEM_COMPETENCIES</span>
+<h2 class="text-headline-lg font-headline-lg text-text-bright">Core Technical Arsenal &amp; Architecture</h2>
+</div>
+<span class="font-code-sm text-code-sm text-text-dim">TS • VUE • REACT • NODE • GIS • AWS</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<!-- Frontend Mastery -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-slate-border-glow transition-all space-y-4">
+<div class="flex items-center gap-3">
+<div class="p-2.5 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container">
+<span class="material-symbols-outlined" data-icon="code">code</span>
+</div>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Frontend Mastery</h3>
+<p class="font-code-sm text-code-sm text-text-dim">Complex UIs &amp; Spatial Engines</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted">
+            Specialized in high-fidelity SPAs, micro-frontends, design systems, and real-time interactive mapping interfaces.
+          </p>
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-primary font-code-sm text-code-sm">Vue.js / Nuxt 4</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-primary font-code-sm text-code-sm">React &amp; Next.js</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-primary font-code-sm text-code-sm">TypeScript</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Mapbox GL JS</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Google Maps API</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Tailwind CSS</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">State Management</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">WebSockets</span>
+</div>
+</div>
+<!-- Backend & Cloud -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-slate-border-glow transition-all space-y-4">
+<div class="flex items-center gap-3">
+<div class="p-2.5 rounded bg-secondary/10 border border-secondary/30 text-secondary">
+<span class="material-symbols-outlined" data-icon="cloud_sync">cloud_sync</span>
+</div>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Backend &amp; Cloud Infra</h3>
+<p class="font-code-sm text-code-sm text-text-dim">APIs, Media &amp; Persistence</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted">
+            Architecting reliable serverless logic, database optimization, media transcoding pipelines, and auth ecosystems.
+          </p>
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-secondary font-code-sm text-code-sm">Node.js</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-secondary font-code-sm text-code-sm">Laravel &amp; PHP</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-secondary font-code-sm text-code-sm">Supabase</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">PostgreSQL</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Firebase</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">AWS S3 &amp; CloudFront</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">AWS MediaConvert</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">REST / GraphQL</span>
+</div>
+</div>
+<!-- Architecture & Delivery -->
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-slate-border-glow transition-all space-y-4">
+<div class="flex items-center gap-3">
+<div class="p-2.5 rounded bg-tertiary-container/10 border border-tertiary-container/30 text-primary-container">
+<span class="material-symbols-outlined" data-icon="architecture">architecture</span>
+</div>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Architecture &amp; Delivery</h3>
+<p class="font-code-sm text-code-sm text-text-dim">Scale, Streaming &amp; Reliability</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted">
+            End-to-end design from geospatial systems to FAST streaming pipelines and rock-solid automated test harnesses.
+          </p>
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-primary-container font-code-sm text-code-sm">GIS &amp; Geospatial Engines</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-primary-container font-code-sm text-code-sm">FAST / AVOD Streaming</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">CMS &amp; Admin Platforms</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Automated Testing (Jest)</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Selenium E2E</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">CI/CD Workflows</span>
+<span class="px-2.5 py-1 rounded bg-surface-container-low border border-slate-border text-text-bright font-code-sm text-code-sm">Web Performance Profiling</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Featured Systems & Case Studies -->
+<section class="space-y-6" id="case-studies">
+<div class="flex items-center justify-between border-b border-slate-border pb-4">
+<div>
+<span class="font-code-sm text-code-sm text-primary-container tracking-wider">// ARCHITECTURE_PORTFOLIO</span>
+<h2 class="text-headline-lg font-headline-lg text-text-bright">Featured Production Systems</h2>
+</div>
+<span class="font-code-sm text-code-sm text-text-dim">ACTIVE DEPLOYMENTS</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Case Study 1: Forest Finder GIS Engine -->
+<div class="p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-primary-container/10 border border-primary-container/20 text-primary-container font-code-sm text-code-sm">
+                GEOSPATIAL &amp; GIS
+              </span>
+<span class="font-code-sm text-code-sm text-secondary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Live Production
+              </span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-bright">
+              Forest Finder GIS Engine
+            </h3>
+<p class="font-body-md text-body-md text-text-muted">
+              Engineered high-performance polygon boundary mapping tool for field operators and carbon credit verification at Kijani Forestry. Successfully spearheaded the migration from Mapbox to Google Maps API with zero downtime, cutting rendering latency across tens of thousands of complex spatial coordinates.
+            </p>
+<div class="p-4 rounded bg-surface-container-lowest border border-slate-border space-y-2">
+<div class="text-label-caps font-label-caps text-text-dim">KEY PERFORMANCE DELIVERABLES</div>
+<ul class="text-body-sm font-body-sm text-text-bright space-y-1 list-disc list-inside">
+<li class="">Dynamic polygon rendering across complex forestry concessions</li>
+<li class="">Offline sync protocol for remote African reforestation fields</li>
+<li class="">Integrated analytics dashboard backed by Laravel &amp; Supabase</li>
+</ul>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/50">
+<span class="font-code-sm text-code-sm text-primary-container">Nuxt 4</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">Mapbox GL JS</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">Google Maps API</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">Supabase</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">PostgreSQL</span>
+</div>
+</div>
+<!-- Case Study 2: Mansa FAST Streaming Pipeline -->
+<div class="p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-secondary/10 border border-secondary/20 text-secondary font-code-sm text-code-sm">
+                FAST / AVOD STREAMING
+              </span>
+<span class="font-code-sm text-code-sm text-text-dim">
+                Global Scale (US / EU)
+              </span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-bright">
+              Mansa FAST Streaming Pipeline
+            </h3>
+<p class="font-body-md text-body-md text-text-muted">
+              Scaled global ad-supported streaming playback infrastructure to 300,000+ viewers across mobile and web. Built automated media transcoding orchestrations using AWS MediaConvert, automated QA pipelines via Selenium and Jest, ensuring pristine bitrate adaptation and zero-buffer commercial insertion.
+            </p>
+<div class="p-4 rounded bg-surface-container-lowest border border-slate-border space-y-2">
+<div class="text-label-caps font-label-caps text-text-dim">KEY PERFORMANCE DELIVERABLES</div>
+<ul class="text-body-sm font-body-sm text-text-bright space-y-1 list-disc list-inside">
+<li class="">Sustained 300K+ simultaneous viewer sessions with 99.98% uptime</li>
+<li class="">Dynamic SSAI (Server-Side Ad Insertion) integration</li>
+<li class="">Automated media ingest with AWS S3, CloudFront &amp; MediaConvert</li>
+</ul>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/50">
+<span class="font-code-sm text-code-sm text-secondary">React</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">TypeScript</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">AWS MediaConvert</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">CloudFront</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">Jest</span>
+</div>
+</div>
+<!-- Case Study 3: Circuits TV Live Broadcaster -->
+<div class="p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-primary-container/10 border border-primary-container/20 text-primary-container font-code-sm text-code-sm">
+                HIGH CONCURRENCY CMS
+              </span>
+<span class="font-code-sm text-code-sm text-secondary flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> 45K+ Peak
+              </span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-bright">
+              Circuits TV Live Broadcaster
+            </h3>
+<p class="font-body-md text-body-md text-text-muted">
+              Built an in-house CMS and real-time streaming broadcaster engineered for sports and entertainment live events. Handled over 45,000 live concurrent viewers during peak national events without audio-video desync or traffic dropoffs.
+            </p>
+<div class="p-4 rounded bg-surface-container-lowest border border-slate-border space-y-2">
+<div class="text-label-caps font-label-caps text-text-dim">KEY PERFORMANCE DELIVERABLES</div>
+<ul class="text-body-sm font-body-sm text-text-bright space-y-1 list-disc list-inside">
+<li class="">Low latency HLS/DASH media player with auto bandwidth scaling</li>
+<li class="">High throughput CMS for real-time editorial schedule publishing</li>
+<li class="">Full real-time engagement telemetry with Redis and WebSockets</li>
+</ul>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/50">
+<span class="font-code-sm text-code-sm text-primary-container">Vue.js</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">Node.js</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">WebSockets</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-primary-container">HLS / Video.js</span>
+</div>
+</div>
+<!-- Case Study 4: Lenderly Automated KYC Platform -->
+<div class="p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded bg-secondary/10 border border-secondary/20 text-secondary font-code-sm text-code-sm">
+                FINTECH &amp; REMITTANCE
+              </span>
+<span class="font-code-sm text-code-sm text-text-dim">
+                KYC: Weeks to Seconds
+              </span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-bright">
+              Lenderly Automated KYC &amp; FundsTrans
+            </h3>
+<p class="font-body-md text-body-md text-text-muted">
+              Architected the core frontend &amp; verification pipelines for Lenderly loan manager and FundsTrans remittance platform serving the Dutch market. Replaced manual document review cycles with automated ID verification, slashing KYC turnaround times from multiple weeks to instant seconds.
+            </p>
+<div class="p-4 rounded bg-surface-container-lowest border border-slate-border space-y-2">
+<div class="text-label-caps font-label-caps text-text-dim">KEY PERFORMANCE DELIVERABLES</div>
+<ul class="text-body-sm font-body-sm text-text-bright space-y-1 list-disc list-inside">
+<li class="">Automated identity document extraction and biometrics verification</li>
+<li class="">Cross-border payment calculation engine for EUR remittances</li>
+<li class="">Enterprise bank compliance audits and zero-friction client portal</li>
+</ul>
+</div>
+</div>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/50">
+<span class="font-code-sm text-code-sm text-secondary">React</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">TypeScript</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">Node.js</span>
+<span class="text-text-dim">•</span>
+<span class="font-code-sm text-code-sm text-secondary">Postgres</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Comprehensive Interactive Career Experience Timeline -->
+<section class="space-y-8" id="timeline">
+<div class="flex items-center justify-between border-b border-slate-border pb-4">
+<div>
+<span class="font-code-sm text-code-sm text-primary-container tracking-wider">// CHRONOLOGICAL_DOSSIER</span>
+<h2 class="text-headline-lg font-headline-lg text-text-bright">10-Year Career Experience Timeline</h2>
+</div>
+<span class="font-code-sm text-code-sm text-text-dim">2016 — 2026</span>
+</div>
+<!-- Chronological Timeline Spine -->
+<div class="relative pl-6 lg:pl-10 space-y-10 before:content-[''] before:absolute before:left-2 lg:before:left-3 before:top-2 before:bottom-2 before:w-0.5 before:bg-gradient-to-b before:from-primary-container before:via-secondary before:to-slate-border">
+<!-- Role 1: Kijani Forestry -->
+<div class="relative group">
+<!-- Pulse Dot -->
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-primary-container flex items-center justify-center">
+<div class="w-1.5 h-1.5 rounded-full bg-primary-container animate-ping"></div>
+</div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-primary-container font-semibold">Feb 2026 — Present</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Senior Frontend Engineer</h3>
+<div class="text-body-md font-body-md text-text-muted">Kijani Forestry • Uganda</div>
+</div>
+<span class="px-3 py-1 self-start lg:self-center rounded-full bg-secondary/10 text-secondary border border-secondary/30 font-code-sm text-code-sm">
+                CURRENT ROLE
+              </span>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Architecting <strong class="text-text-bright">Forest Finder</strong> GIS web application for field operations, mapping, and monitoring tree planting initiatives.</li>
+<li class="">Engineered interactive polygon boundary mapping tools enabling field officers to trace plantation limits accurately.</li>
+<li class="">Successfully led seamless migration from <strong class="text-text-bright">Mapbox to Google Maps API</strong>, eliminating third-party friction and improving responsiveness.</li>
+<li class="">Developed internal dashboards and reporting analytics utilizing <strong class="text-text-bright">Nuxt 4, Mapbox GL JS, Postgres, Laravel, and Supabase</strong>.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-primary-container font-code-sm text-code-sm">Nuxt 4</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Mapbox GL JS</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Google Maps API</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Supabase</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Laravel</span>
+</div>
+</div>
+</div>
+<!-- Role 2: Freelance / Consulting -->
+<div class="relative group">
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-slate-border group-hover:border-primary-container transition-colors"></div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-text-dim">Dec 2024 — Jan 2026</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Senior Software Consultant</h3>
+<div class="text-body-md font-body-md text-text-muted">Startups &amp; Independent Clients • Global</div>
+</div>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Designed and shipped high-performance POS system for <strong class="text-text-bright">Igourd Systems</strong>, boosting transaction speed and reliability by <strong class="text-secondary">+40%</strong>.</li>
+<li class="">Engineered a custom content management system and live streaming broadcaster for <strong class="text-text-bright">Circuits TV</strong>, delivering uninterrupted video streaming to over <strong class="text-primary-container">45,000 live viewers</strong>.</li>
+<li class="">Delivered complete architectural roadmaps for early-stage SaaS ventures looking to scale.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">React</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Vue.js</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Node.js</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Streaming Architecture</span>
+</div>
+</div>
+</div>
+<!-- Role 3: Mansa TV -->
+<div class="relative group">
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-slate-border group-hover:border-primary-container transition-colors"></div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-text-dim">Feb 2022 — Sep 2024</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Senior Software Engineer</h3>
+<div class="text-body-md font-body-md text-text-muted">Mansa TV • United States (Remote)</div>
+</div>
+<span class="font-code-sm text-code-sm text-primary-container">FAST / AVOD Scaling</span>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Scaled ad-supported FAST and VOD streaming playback systems to <strong class="text-primary-container">300,000+ viewers</strong> across web and mobile.</li>
+<li class="">Constructed end-to-end automated testing suites with <strong class="text-text-bright">Selenium and Jest</strong>, cutting deployment regression incidents by 45%.</li>
+<li class="">Orchestrated automated media pipelines leveraging <strong class="text-text-bright">AWS S3, CloudFront, and AWS MediaConvert</strong> for multi-bitrate delivery.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">React</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">AWS MediaConvert</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">CloudFront</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Selenium</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Jest</span>
+</div>
+</div>
+</div>
+<!-- Role 4: MentorMate -->
+<div class="relative group">
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-slate-border group-hover:border-primary-container transition-colors"></div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-text-dim">Apr 2022 — Aug 2022</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Senior Software Engineer</h3>
+<div class="text-body-md font-body-md text-text-muted">MentorMate • Sofia, Bulgaria (Remote)</div>
+</div>
+<span class="font-code-sm text-code-sm text-text-dim">HealthTech / MedTech</span>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Developed <strong class="text-text-bright">CLINPORTAL</strong>, an enterprise healthcare CMS designed for clinicians delivering sleep apnea therapy (Inspire medical devices).</li>
+<li class="">Collaborated across European engineering teams to ensure strict compliance with medical device software protocols and HIPAA standards.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">React</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">TypeScript</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Healthcare Portal</span>
+</div>
+</div>
+</div>
+<!-- Role 5: Project Code -->
+<div class="relative group">
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-slate-border group-hover:border-primary-container transition-colors"></div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-text-dim">Mar 2021 — Mar 2022</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Senior Software Developer</h3>
+<div class="text-body-md font-body-md text-text-muted">Project Code • Uganda</div>
+</div>
+<span class="font-code-sm text-code-sm text-secondary">FinTech &amp; Remittance</span>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Built <strong class="text-text-bright">FundsTrans</strong>, an international cross-border remittance portal optimized for Dutch financial markets.</li>
+<li class="">Architected <strong class="text-text-bright">Lenderly</strong>, a digital loan management application with automated identity validation dropping KYC approval from weeks to seconds.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">FinTech</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">KYC Automation</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Node.js</span>
+</div>
+</div>
+</div>
+<!-- Role 6: Opportunity Bank & Andela -->
+<div class="relative group">
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-slate-border group-hover:border-primary-container transition-colors"></div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-text-dim">Aug 2019 — Feb 2020</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Solutions Developer &amp; Engineering Mentor</h3>
+<div class="text-body-md font-body-md text-text-muted">Opportunity Bank &amp; Andela / Google Africa Developer Scholarship</div>
+</div>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Mentored <strong class="text-terminal-amber">139 software developers</strong> across Africa through the Google Africa Developer Scholarship program.</li>
+<li class="">Engineered internal software tools for loan underwriting and core banking processes at Opportunity Bank.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Mentorship</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Google Scholarship</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">FinTech</span>
+</div>
+</div>
+</div>
+<!-- Role 7: Dotsaidia Systems -->
+<div class="relative group">
+<div class="absolute -left-[27px] lg:-left-[39px] top-1.5 w-4 h-4 rounded-full bg-surface-container-lowest border-2 border-slate-border group-hover:border-primary-container transition-colors"></div>
+<div class="p-6 lg:p-8 rounded-xl bg-slate-surface/85 border border-slate-border hover:border-primary-container/40 transition-all space-y-4">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+<div>
+<span class="font-code-sm text-code-sm text-text-dim">Nov 2016 — Dec 2018</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">Frontend Developer</h3>
+<div class="text-body-md font-body-md text-text-muted">Dotsaidia Systems • Uganda</div>
+</div>
+<span class="font-code-sm text-code-sm text-text-dim">EdTech Platform</span>
+</div>
+<ul class="text-body-md font-body-md text-text-muted space-y-2 list-disc list-inside">
+<li class="">Built and optimized UI modules for <strong class="text-text-bright">DotShule</strong>, an educational administration suite scaled to over <strong class="text-text-bright">80 schools</strong>.</li>
+<li class="">Contributed to year-over-year platform adoption growth exceeding <strong class="text-secondary">+66%</strong>.</li>
+</ul>
+<div class="flex flex-wrap gap-2 pt-2 border-t border-slate-border/40">
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">JavaScript</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">Single Page Apps</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-text-bright font-code-sm text-code-sm">EdTech</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 6: Education & Certified Credentials -->
+<section class="space-y-6" id="education">
+<div class="flex items-center justify-between border-b border-slate-border pb-4">
+<div>
+<span class="font-code-sm text-code-sm text-primary-container tracking-wider">// ACADEMIC_CREDENTIALS</span>
+<h2 class="text-headline-lg font-headline-lg text-text-bright">Education &amp; Networking Certifications</h2>
+</div>
+<span class="font-code-sm text-code-sm text-text-dim">VERIFIED RECORDS</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border flex items-start gap-4">
+<div class="p-3 rounded bg-primary-container/10 border border-primary-container/30 text-primary-container">
+<span class="material-symbols-outlined" data-icon="school">school</span>
+</div>
+<div class="space-y-1">
+<span class="font-code-sm text-code-sm text-primary-container">ACADEMIC DEGREE</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">
+              Bachelor of Information Technology
+            </h3>
+<p class="text-body-md font-body-md text-text-muted">
+              Uganda Pentecostal University (UPU)
+            </p>
+<p class="font-code-sm text-code-sm text-text-dim pt-2">
+              Software engineering, distributed databases, computational systems.
+            </p>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-slate-surface/85 border border-slate-border flex items-start gap-4">
+<div class="p-3 rounded bg-secondary/10 border border-secondary/30 text-secondary">
+<span class="material-symbols-outlined" data-icon="router">router</span>
+</div>
+<div class="space-y-1">
+<span class="font-code-sm text-code-sm text-secondary">INDUSTRY CERTIFICATION</span>
+<h3 class="text-headline-sm font-headline-sm text-text-bright">
+              Cisco Certified Network Associate (CCNA)
+            </h3>
+<p class="text-body-md font-body-md text-text-muted">
+              Makerere University
+            </p>
+<p class="font-code-sm text-code-sm text-text-dim pt-2">
+              Network architecture, IP routing, packet telemetry, secure infrastructure.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 7: Download CV Terminal / Direct Contact & Connect -->
+<section class="space-y-6" id="contact">
+<div class="p-8 lg:p-12 rounded-xl bg-slate-surface/85 border border-slate-border relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-7 space-y-4">
+<span class="font-code-sm text-code-sm text-primary-container tracking-wider">// CONTRACT_ENGAGEMENT</span>
+<h2 class="text-headline-xl font-headline-xl text-text-bright">
+              Ready to elevate your engineering velocity?
+            </h2>
+<p class="text-body-lg font-body-lg text-text-muted">
+              Available for Senior Frontend, Full-Stack Architecture, and Lead Consulting roles. Whether you need an elite frontend lead, complex spatial mapping, or high-scale streaming playback, let's talk.
+            </p>
+<div class="pt-4 flex flex-wrap gap-4">
+<!-- Trigger simulated or direct CV download -->
+<button class="flex items-center gap-2 px-6 py-3 bg-primary-container text-surface-container-lowest font-headline-sm text-headline-sm rounded hover:opacity-95 active:scale-[0.98] transition-all shadow-[0_0_20px_rgba(0,240,255,0.3)]" onclick="triggerCVDownload()">
+<span class="material-symbols-outlined" data-icon="download">download</span>
+<span class="">Download Official CV (PDF)</span>
+</button>
+<button class="flex items-center gap-2 px-6 py-3 border border-slate-border text-text-bright font-headline-sm text-headline-sm rounded hover:border-primary-container hover:bg-primary-container/5 transition-all" onclick="copyEmailToClipboard()">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+<span class="">Copy Email Address</span>
+</button>
+</div>
+</div>
+<!-- Direct Channels Inset Card -->
+<div class="lg:col-span-5 p-6 rounded-lg bg-surface-container-lowest border border-slate-border space-y-4">
+<div class="font-code-sm text-code-sm text-text-dim border-b border-slate-border pb-2">
+              VERIFIED CHANNELS // DIRECT DISPATCH
+            </div>
+<!-- Email -->
+<a class="flex items-center justify-between p-3 rounded bg-surface-container-low hover:bg-slate-elevated border border-slate-border hover:border-primary-container transition-all group" href="mailto:ignatiusyesigye@gmail.com">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container" data-icon="alternate_email">alternate_email</span>
+<div>
+<div class="font-label-caps text-label-caps text-text-dim">EMAIL</div>
+<div class="font-code-sm text-code-sm text-text-bright">ignatiusyesigye@gmail.com</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-text-dim group-hover:text-primary-container" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<!-- Phone / WhatsApp -->
+<a class="flex items-center justify-between p-3 rounded bg-surface-container-low hover:bg-slate-elevated border border-slate-border hover:border-primary-container transition-all group" href="tel:+256758442440">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="call">call</span>
+<div>
+<div class="font-label-caps text-label-caps text-text-dim">PHONE / WHATSAPP</div>
+<div class="font-code-sm text-code-sm text-text-bright">+256 758 442 440</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-text-dim group-hover:text-secondary" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<!-- LinkedIn -->
+<a class="flex items-center justify-between p-3 rounded bg-surface-container-low hover:bg-slate-elevated border border-slate-border hover:border-primary-container transition-all group" href="https://linkedin.com/in/yesigye" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container" data-icon="link">link</span>
+<div>
+<div class="font-label-caps text-label-caps text-text-dim">LINKEDIN</div>
+<div class="font-code-sm text-code-sm text-text-bright">linkedin.com/in/yesigye</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-text-dim group-hover:text-primary-container" data-icon="open_in_new">open_in_new</span>
+</a>
+<!-- Location -->
+<a class="flex items-center justify-between p-3 rounded bg-surface-container-low hover:bg-slate-elevated border border-slate-border hover:border-secondary transition-all group" href="https://ignatiusyesigyekm0ah0qi.contra.com/" rel="noopener noreferrer" target="_blank">
+  <div class="flex items-center gap-3">
+    <span class="material-symbols-outlined text-secondary" data-icon="handshake">handshake</span>
+    <div>
+      <div class="font-label-caps text-label-caps text-text-dim">CONTRA PROFILE</div>
+      <div class="font-code-sm text-code-sm text-text-bright">ignatiusyesigyekm0ah0qi.contra.com</div>
+    </div>
+  </div>
+  <span class="material-symbols-outlined text-text-dim group-hover:text-secondary" data-icon="open_in_new">open_in_new</span>
+</a><div class="flex items-center gap-3 p-3 text-text-dim font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+<span class="">Kampala, Uganda • Ready for Worldwide Remote</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Download Modal / Prompt Simulation -->
+<div class="fixed inset-0 bg-surface-container-lowest/80 backdrop-blur-md z-50 hidden items-center justify-center p-4" id="cv-modal">
+<div class="bg-slate-surface border border-slate-border p-6 rounded-xl max-w-md w-full space-y-4 shadow-2xl relative">
+<div class="flex items-center justify-between border-b border-slate-border pb-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container" data-icon="file_download">file_download</span>
+<span class="font-headline-sm text-headline-sm text-text-bright">Initiating Dossier Download</span>
+</div>
+<button class="text-text-dim hover:text-text-bright" onclick="closeCVModal()">
+<span class="material-symbols-outlined" data-icon="close">close</span>
+</button>
+</div>
+<div class="space-y-2">
+<p class="font-body-sm text-body-sm text-text-muted">
+          Ready to download verified professional dossier:
+        </p>
+<div class="p-3 bg-surface-container-lowest rounded border border-slate-border font-code-sm text-code-sm text-primary-container flex items-center justify-between">
+<span class="">Ignatius_Yesigye_CV_2025.pdf</span>
+<span class="text-text-dim text-xs">PDF • 184 KB</span>
+</div>
+</div>
+<div class="pt-2 flex justify-end gap-3">
+<button class="px-4 py-2 border border-slate-border rounded font-label-caps text-label-caps text-text-muted hover:text-text-bright" onclick="closeCVModal()">
+          Cancel
+        </button>
+<button class="px-4 py-2 bg-primary-container text-surface-container-lowest rounded font-label-caps text-label-caps font-bold hover:opacity-90" onclick="confirmDownload()">
+          Save Document
+        </button>
+</div>
+</div>
+</div>
+<!-- Shared Component: Footer (Web Footer) -->
+<footer class="bg-surface-container-lowest border-t border-slate-border docked full-width bottom flat no shadows mt-16">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-6 lg:px-12 py-8 max-w-7xl mx-auto gap-4">
+<!-- Brand Logo / Copyright Identity (Immutable casing) -->
+<div class="text-label-caps font-label-caps text-text-dim tracking-widest text-center md:text-left">
+        © 2025 IGNATIUS YESIGYE // SENIOR SYSTEMS &amp; FRONTEND ARCHITECT. ALL TELEMETRY LOGGED.
+      </div>
+<!-- Footer Navigation Links -->
+<div class="flex flex-wrap items-center justify-center gap-6">
+<a class="text-text-dim font-label-caps text-label-caps hover:text-primary-container hover:underline transition-all duration-150" href="#overview">
+          Architecture Dossier
+        </a>
+<a class="text-text-dim font-label-caps text-label-caps hover:text-primary-container hover:underline transition-all duration-150" href="#timeline">
+          Interactive Timeline
+        </a>
+<a class="text-text-dim font-label-caps text-label-caps hover:text-primary-container hover:underline transition-all duration-150" href="#education">
+          Verified Credentials
+        </a>
+<a class="text-text-dim font-label-caps text-label-caps hover:text-primary-container hover:underline transition-all duration-150" href="mailto:ignatiusyesigye@gmail.com">
+          Public Key / PGP
+        </a>
+<a class="text-text-dim font-label-caps text-label-caps hover:text-primary-container hover:underline transition-all duration-150" href="#skills">
+          Source Specs
+        </a>
+<a class="text-secondary font-label-caps text-label-caps hover:underline flex items-center gap-1 transition-all duration-150" href="https://ignatiusyesigyekm0ah0qi.contra.com/" target="_blank" rel="noopener noreferrer">
+  <span class="">Contra Contract Hub</span>
+  <span class="material-symbols-outlined text-xs" data-icon="open_in_new">open_in_new</span>
+</a></div>
+</div>
+</footer>
+<!-- Interactive Scripts -->
+<script>
+    function copyEmailToClipboard() {
+      const email = 'ignatiusyesigye@gmail.com';
+      navigator.clipboard.writeText(email).then(() => {
+        const toast = document.getElementById('copy-toast');
+        if (toast) {
+          toast.classList.remove('hidden');
+          toast.classList.add('inline-flex');
+          setTimeout(() => {
+            toast.classList.remove('inline-flex');
+            toast.classList.add('hidden');
+          }, 3500);
+        }
+      });
+    }
 
-    <meta property="og:title" content="project-showcase-engineer-hub" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    function triggerCVDownload() {
+      const modal = document.getElementById('cv-modal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <script type="module" crossorigin src="/assets/index-CvwpAzj3.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Cu9EJtuz.css">
-  </head>
+    function closeCVModal() {
+      const modal = document.getElementById('cv-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-  </body>
-</html>
+    function confirmDownload() {
+      // Create a dynamic blob to simulate a crisp PDF download
+      const element = document.createElement("a");
+      const file = new Blob([
+        "IGNATIUS YESIGYE - SENIOR SOFTWARE ENGINEER & FRONTEND ARCHITECT\n\n" +
+        "Email: ignatiusyesigye@gmail.com | Phone: +256758442440 | Location: Uganda (Global Remote)\n" +
+        "Experience: 10 Years\n" +
+        "- Senior Frontend Engineer @ Kijani Forestry (Feb 2026 - Present)\n" +
+        "- Senior Software Consultant @ Freelance (Dec 2024 - Jan 2026)\n" +
+        "- Senior Software Engineer @ Mansa TV (Feb 2022 - Sep 2024)\n" +
+        "- Senior Software Engineer @ MentorMate (Apr 2022 - Aug 2022)\n" +
+        "- Senior Software Developer @ Project Code (Mar 2021 - Mar 2022)\n" +
+        "- Solutions Developer & Mentor @ Opportunity Bank & Andela (2019 - 2020)\n" +
+        "- Frontend Developer @ Dotsaidia Systems (2016 - 2018)\n\n" +
+        "Full Telemetry and Architecture verified."
+      ], { type: 'text/plain' });
+      
+      element.href = URL.createObjectURL(file);
+      element.download = "Ignatius_Yesigye_CV_2025.txt";
+      document.body.appendChild(element);
+      element.click();
+      document.body.removeChild(element);
+      closeCVModal();
+    }
+  </script>
+
+
+</body></html>
